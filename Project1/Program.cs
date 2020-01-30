@@ -185,23 +185,31 @@ namespace Project01_Introduction
 
             }
 
-               // Write your code here
+            // Write your code here
 
 
 
 
-               // Exercise 6
-               // Input a value (n) from the user and display the following * pattern:
-               // Input n=5
-               // Output
-               //     *
-               //    **
-               //   ***
-               //  ****
-               // *****
+            // Exercise 6
+            // Input a value (n) from the user and display the following * pattern:
+            // Input n=5
+            // Output
+            //     *
+            //    **
+            //   ***
+            //  ****
+            // *****
 
-               // Write your code here
-
+            // Write your code here
+            int l = Convert.ToInt32(Console.ReadLine());
+            for (int i = 0; i <= l; i++)
+            {
+                for (int j = 0; j <= i; j++)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+            }
 
 
 
